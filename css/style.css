@@ -12,8 +12,10 @@ li, a {
 }
 
 .logo {
+    /* position: absolute; */
     position: absolute;
-    align-items: center;
+    /* align-items: center;
+    justify-content: center; */
     /* display: flex;
     align-items: center;
     justify-content: center; */
@@ -25,7 +27,7 @@ li, a {
 
 .contact-info li {
     display: inline-block;
-    padding: 2px 20px;
+    padding: 1px 20px 0px 20px;
     margin-right: 40px;
 }
 
@@ -34,8 +36,10 @@ li, a {
 }
 
 .main-content {
+    position: relative;
     background-color: lightgray;
     height: 100%;
+    width: 100%;
     padding-bottom: 100%;
 }
 
