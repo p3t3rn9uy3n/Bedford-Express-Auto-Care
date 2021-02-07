@@ -19,8 +19,20 @@
     text-decoration: none;
 }
 
+.maplink::before {
+    content: "";
+    color: black;
+}
+
+.phonelink::before {
+    content: "☎";
+    color: black;
+}
+
 .phonelink {
     text-decoration: none;
+    font-size: 125%;
+    font-weight: 600;
 }
 
 .nav-links {
