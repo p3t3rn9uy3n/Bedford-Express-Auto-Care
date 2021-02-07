@@ -17,6 +17,8 @@
 
 .maplink {
     text-decoration: none;
+    font-size: 125%;
+    font-weight: 600;
 }
 
 .maplink::before {
@@ -35,6 +37,15 @@
     font-weight: 600;
 }
 
+#fbfollow {
+    font-size: 125%;
+    font-weight: bold; 
+}
+
+#fblink {
+    margin-left: 30px;
+}
+
 .nav-links {
     display: flex;
     flex-grow: 4;
@@ -46,6 +57,9 @@
 
 .nav-links li {
     color: black;
+    font-size: 150%;
+    font-weight: bolder;
+    text-decoration: none;
 }
 
 .top-nav {
@@ -56,6 +70,7 @@
 
 #hours {
     text-align: center;
+    font-weight: bold;
 }
 
 .mainpicture {
