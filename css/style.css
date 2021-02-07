@@ -53,7 +53,22 @@
     align-items: center;
     padding: 135px 150px 25px 150px;
     list-style-type: none;
+    position: relative;
 }
+
+#navb1:hover {
+    font-size: 175%;
+}
+#navb2:hover {
+    font-size: 175%;
+}
+#navb3:hover {
+    font-size: 175%;
+}
+#navb4:hover {
+    font-size: 175%;
+}
+
 
 .nav-links li {
     color: black;
